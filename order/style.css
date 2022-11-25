@@ -1,0 +1,91 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.order{
+    min-height: 700px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+}
+.order-icon{
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.order-icon p{
+    padding: 20px;
+    color: #AFB1C8;
+}
+.icon{
+    width: 100%;
+    height: 180px;
+}
+.icon img{
+    width: 400px;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 0px  30px;
+    width: 300px;
+    margin-left: 20px;
+}
+.two{
+    margin-left: 20px;
+}
+.two h5{
+    color: #979EB2;
+}
+.three p{
+    margin-left: 50px;
+    color-scheme: #746BD9;
+}
+.five button{
+   padding: 10px 50px;
+   margin-top: 20px;
+   background-color: blue;
+   color: white;
+   border-radius: 10px;
+   border-color: white;
+   cursor: pointer; 
+}
+.attribution{
+    background-color: red;
+    text-align: center;
+    color: aqua;
+}
+
+
+
+
+@media only screen and (max-width: 950px){
+ .order{
+    display: flex;
+    flex-direction: column;
+ }   
+ .container{
+    display: flex;
+    flex-direction: column;
+ }
+ .flex{
+    display: flex;
+    flex-direction: row;
+ }   
+}
